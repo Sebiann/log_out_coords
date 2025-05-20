@@ -14,7 +14,7 @@ loom {
     splitEnvironmentSourceSets()
 
     mods {
-        "chaoscraft" {
+        "logoutcoords" {
             sourceSet sourceSets.main
             sourceSet sourceSets.client
         }

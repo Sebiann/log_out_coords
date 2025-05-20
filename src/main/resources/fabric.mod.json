@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "logoutcoords",
+  "version": "${version}",
+  "name": "Logout Coords",
+  "description": "logs the coords when loging out",
+  "authors": [
+    "Sebiann"
+  ],
+  "contact": {
+    "email": "code@sebiann.moe",
+    "homepage": "https://sebiann.moe",
+    "issues": "https://github.com/Sebiann/log_out_coords/issues",
+    "sources": "https://github.com/Sebiann/log_out_coords"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/logoutcoords/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "moe.sebiann.logoutcoords.LogoutCoords"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
